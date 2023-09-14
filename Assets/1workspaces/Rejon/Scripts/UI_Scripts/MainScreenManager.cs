@@ -11,7 +11,7 @@ public class MainScreenManager : MonoBehaviour
 
     private void Awake()
     {
-        AudioManager.Instance.PlayMusic("Mu_MainMenu");
+        // AudioManager.Instance.PlayMusic("Mu_MainMenu");
     }
 
     void Start()
@@ -31,7 +31,8 @@ public class MainScreenManager : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("TestLevel");
+        SceneManager.LoadScene("Ingame");
+        Debug.Log("Prueba de press");
     }
 
     public void ShowCredits()
