@@ -299,20 +299,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5064198598974557755}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 648e3a7f61148b9458ddd131bdf8bcfa, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a885b6cd7b6dc347be2cc0ba7f8af3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSounds:
-  - name: Mu_MainMenu
-    clip: {fileID: 8300000, guid: 13241550aedb18f48bf2ce2faec6c29f, type: 3}
-  - name: Mu_Niv1
-    clip: {fileID: 8300000, guid: d457250524d251040ab129129e314b12, type: 3}
-  - name: Mu_Boss
-    clip: {fileID: 8300000, guid: ab5ae33b914b37f4a968f4526fb2700b, type: 3}
-  sfxSounds:
-  - name: Sfx_Hit
-    clip: {fileID: 8300000, guid: d0054685367eba147a63385865076943, type: 3}
-  - name: Sfx_IceBreaking
-    clip: {fileID: 8300000, guid: f13a35f646ec50f4fae39bd0d79c92a0, type: 3}
+  musicSounds: []
+  sfxSounds: []
   musicSource: {fileID: 5064198598050224881}
   sfxSource: {fileID: 5064198597880773667}
