@@ -8,13 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/1workspaces/Rejon/InGame.unity
-    guid: 1fa4f8a2546496e479f6aa785775d0ac
-  - enabled: 1
-    path: Assets/1workspaces/Rejon/Intro.unity
-    guid: 814f3dd6c3f77ce4783334df9894dbae
-  - enabled: 1
-    path: Assets/1workspaces/Rejon/Outro.unity
-    guid: a85748e1d2c476b47b5afd3363ac1333
   m_configObjects: {}
