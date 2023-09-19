@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/1workspaces/Rejon/Outro.unity
     guid: a85748e1d2c476b47b5afd3363ac1333
+  - enabled: 1
+    path: Assets/1workspaces/Rejon/MainMenu.unity
+    guid: 3ea2f23b1d7be2e4f9fe9b8689bfdb27
   m_configObjects: {}

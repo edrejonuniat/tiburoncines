@@ -11,7 +11,7 @@ public class MainScreenManager : MonoBehaviour
 
     private void Awake()
     {
-        // AudioManager.Instance.PlayMusic("Mu_MainMenu");
+        AudioManager.Instance.PlayMusic("Mu_MainMenu");
     }
 
     void Start()

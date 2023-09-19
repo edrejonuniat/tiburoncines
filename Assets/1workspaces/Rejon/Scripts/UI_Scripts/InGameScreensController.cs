@@ -66,12 +66,12 @@ public class InGameScreensController : MonoBehaviour
     
     public void PlayAgain()
     {
-        SceneManager.LoadScene("Scenes/Levels/Level_1");
+        SceneManager.LoadScene("InGame");
     }
     
     public void ExitGame()
     {
-        SceneManager.LoadScene("MainScreen");
+        SceneManager.LoadScene("MainMenu");
     }
 
 }

@@ -6,22 +6,26 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    // Rehope Games
-    public static AudioManager Instance;
+    [SerializeField] private Sound[] musicSounds, sfxSounds;
+    [SerializeField] private AudioSource musicSource, sfxSource;
 
-    public Sound[] musicSounds, sfxSounds;
-    public AudioSource musicSource, sfxSource;
+
+    public static AudioManager instance;
+    public static AudioManager Instance
+    {
+        get => instance;
+    }
 
     private void Awake()
     {
         if (Instance == null)
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
+            instance = this;
         }
         else
         {
             Destroy(gameObject);
+            DontDestroyOnLoad(gameObject);
         }
     }
 
